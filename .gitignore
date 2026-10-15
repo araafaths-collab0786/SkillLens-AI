@@ -1,0 +1,51 @@
+# -- Version control --------------------------------------------------------
+.env
+*.env.local
+*.env.*.local
+
+# -- Node ------------------------------------------------------------------
+node_modules/
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+playwright-report/
+test-results/
+
+# -- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+htmlcov/
+.coverage
+*.egg-info/
+dist/
+
+# -- Uploads and temp files ------------------------------------------------
+/tmp/
+uploads/
+*.upload
+
+# -- OS --------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# -- IDE -------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+
+.env
+.env.*
+!.env.example
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+.env.*
+!.env.example

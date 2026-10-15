@@ -1,0 +1,11 @@
+{
+  "pythonVersion": "3.12",
+  "venvPath": "../apps/api",
+  "venv": ".venv",
+  "pythonPlatform": "Windows",
+  "typeCheckingMode": "basic",
+  "useLibraryCodeForTypes": true,
+  "reportMissingImports": "warning",
+  "reportMissingModuleSource": "none",
+  "extraPaths": ["../apps/api"]
+}
